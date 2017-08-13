@@ -1,4 +1,4 @@
-FROM 174713339744.dkr.ecr.cn-north-1.amazonaws.com.cn/ecs-cicd-jenkins:latest
+FROM python:2-onbuild
 
 # Install dependencies
 RUN apt-get update -y

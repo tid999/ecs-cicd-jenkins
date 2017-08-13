@@ -1,4 +1,4 @@
-FROM python:2-onbuild
+FROM ubuntu:latest
 
 # Install dependencies
 RUN apt-get update -y
