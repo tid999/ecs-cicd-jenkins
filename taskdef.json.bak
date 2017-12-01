@@ -23,7 +23,7 @@
         }
       ],
       "name": "simple-app",
-      "image": "%REPOSITORY_URI%:v_%BUILD_NUMBER%:latest",
+      "image": "%REPOSITORY_URI%:v_%BUILD_NUMBER%",
       "cpu": 0
     }
   ],
